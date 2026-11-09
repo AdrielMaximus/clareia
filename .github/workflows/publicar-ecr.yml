@@ -1,0 +1,38 @@
+name: Publicar imagem no ECR
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+
+concurrency:
+  group: publicar-ecr-main
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar código
+        uses: actions/checkout@v4
+
+      - name: Autenticar na AWS via OIDC
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::664418955853:role/ClareiaGitHubActions
+          aws-region: us-east-2
+
+      - name: Entrar no ECR
+        uses: aws-actions/amazon-ecr-login@v2
+
+      - name: Construir e enviar imagem
+        env:
+          ECR_REPOSITORY: 664418955853.dkr.ecr.us-east-2.amazonaws.com/clareia
+        run: |
+          docker build -t "$ECR_REPOSITORY:$GITHUB_SHA" .
+          docker push "$ECR_REPOSITORY:$GITHUB_SHA"
