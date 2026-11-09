@@ -21,6 +21,14 @@ jobs:
       - name: Baixar código
         uses: actions/checkout@v4
 
+      - name: Conferir identidade do workflow
+        env:
+          REPOSITORY: ${{ github.repository }}
+          REF: ${{ github.ref }}
+        run: |
+          echo "Repositório: $REPOSITORY"
+          echo "Referência: $REF"
+
       - name: Autenticar na AWS via OIDC
         uses: aws-actions/configure-aws-credentials@v4
         with:
