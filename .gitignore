@@ -1,0 +1,34 @@
+# Segredos e variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Dependências
+node_modules/
+.venv/
+venv/
+
+# Builds e artefatos
+dist/
+build/
+coverage/
+htmlcov/
+*.egg-info/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+
+# Cache e logs
+.cache/
+*.log
+npm-debug.log*
+
+# Sistema e editores
+.DS_Store
+.idea/
+.vscode/
