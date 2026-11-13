@@ -1,0 +1,19 @@
+Sexta (hoje): código e protocolo. Crie backend/numeros.py e backend/test_numeros.py, integre em main.py e rode .venv/bin/python -m pytest; me diga o resultado. Corrija o "dois tipos" no prompt do verificador e confira se o prompt em produção bate com docs/prompt_v0.txt. Faça o commit e anote o hash, que será a versão congelada. Confirme também a regra de acesso do security group e a revogação da chave GCP. Em seguida, escolha os três textos fixos (acadêmico, educacional e trecho de livro em domínio público), liste os dados que devem ser preservados em cada um e escreva os critérios de aceitação. Se sobrar tempo, comece a busca bibliográfica registrando bases, termos, data e critérios.
+4d21a03
+Sábado: escrita. Escreva o título, a introdução, os objetivos, a fundamentação e os trabalhos relacionados, usando só o que você realmente encontrou na busca. Escreva também a seção da Clareia, trocando o Replit pela AWS (ECS/Fargate) e o modelo pelo identificador atual. Para descrever a tela sem inventar nada, cole aqui o componente do frontend que exibe os alertas, o contexto e o original com dois cliques. Se o protocolo ficou fechado na sexta e o código está congelado, rode as condições A a D no fim do dia e registre tudo sem editar as saídas. Se não, deixe para a semana que vem.
+
+Domingo: fechamento. Escreva a metodologia (experimento exploratório com suas limitações, protocolo técnico, usabilidade descrita como planejada) e a seção de ética, relatando a coleta anterior com transparência e informando que novas coletas dependem de decisão institucional por escrito e de consentimento. Confira o padrão SBC, o resumo, as tabelas, os espaços em branco e as referências, e gere o PDF em LaTeX. Prepare também uma página simples com cada ponto do parecer e o que foi feito ou continua pendente, que ajuda os professores a ver rápido o que mudou. À noite, teste o link do app: se a tarefa reiniciou, o IP pode ter mudado. Deixe capturas de tela como reserva e ensaie a demonstração com o caso de conferência no trecho original.
+
+Segunda: aulas dos professores. Combine antes com cada um se pode passar e quanto tempo terá. Leve o PDF, a página de pendências e a demonstração no celular ou notebook. Pergunte sobre estes pontos:
+
+Qual versão do SUS em português eles preferem.
+Como tratar os dados do subgrupo com TDAH diante da pendência do CEP.
+Quais passos institucionais faltam para liberar as entrevistas.
+Se os critérios de aceitação dos testes técnicos são razoáveis.
+Se há limite de páginas ou outro documento exigido na banca final.
+
+Anote as respostas, de preferência por escrito.
+
+Terça a quinta: ajustes. Aplique o feedback e rode os testes técnicos se ainda não rodaram. Complete as partes que ficaram abertas e envie a versão revisada ao orientador na quarta, deixando a quinta de margem. Resultados do SUS e das entrevistas só entram se a decisão institucional por escrito sair.
+
+Se o tempo apertar, corte nesta ordem: primeiro os resultados técnicos (o artigo apresenta o protocolo como planejado), depois a comparação com ferramentas externas. Não corte a verificação no código, a busca documentada nem a seção de ética.
