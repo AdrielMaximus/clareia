@@ -80,7 +80,7 @@ TERM_INSTRUCTIONS: dict[TermStrategy, str] = {
 }
 
 ABBREVIATION_PATTERN = re.compile(
-    r"(?<!\w)(?:pp|p|dr|dra|sr|et\s+al|etc|ex|cap|fig)\.",
+    r"(?<!\w)(?:pp|p|dr|dra|sr|d|et\s+al|etc|ex|cap|fig)\.",
     re.IGNORECASE,
 )
 SENTENCE_CLOSERS = "\"'”’»)]}"

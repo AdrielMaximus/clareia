@@ -1,0 +1,18 @@
+txt1.txt
+Fonte: resumo (versão em português) do artigo dos próprios autores, "Avaliação de Técnicas de Processamento de Linguagem Natural para Simplificação Textual e Desenvolvimento de uma Plataforma Web de Apoio à Leitura para Pessoas com TDAH".
+Alteração: removida a palavra "Resumo." do início. Quebras de linha do PDF mantidas.
+Licença: texto dos autores.
+
+txt2.txt
+Fonte: Wikipédia em português, verbete "Ensino superior".
+Permalink: [colar o link permanente]
+Acesso: 13/11/2026
+Licença: [conferir no rodapé da página]
+Alterações: removidos a URL, o rótulo "2. educacional:" e os marcadores de nota [3] a [8]. Mantido o erro do original "5,7% pessoas".
+
+txt3.txt
+Fonte: Machado de Assis, Memórias Póstumas de Brás Cubas, Capítulo I.
+Edição: [a que consta nas primeiras páginas do PDF]
+Licença: domínio público.
+Alterações: nenhuma. Quebras de linha do PDF mantidas.
+Observação: o trecho traz "proferi"; não foi conferido em outra edição e pode ser erro de transcrição do PDF. Se a conferência posterior mostrar outra palavra, registrar a divergência sem alterar o texto congelado.

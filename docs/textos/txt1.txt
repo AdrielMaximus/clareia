@@ -1,0 +1,19 @@
+Este artigo apresenta resultados parciais de uma pesquisa aplicada
+que comparou três abordagens de Processamento de Linguagem Natural (PLN)
+para a simplificação de textos de divulgação científica em português brasileiro:
+spaCy com regras linguísticas, PTT5 via few-shot prompting e um modelo Gemini 2.5. O objetivo foi apoiar a leitura de estudantes universitários com e sem
+Transtorno do Déficit de Atenção e Hiperatividade (TDAH), agrupados por autodeclaração, sem exigência de laudo. A pesquisa adotou abordagem mista e
+delineamento experimental comparativo within-subjects. Participaram 28 estudantes, dos quais nove autodeclararam TDAH. Cada participante escolheu
+um número de 1 a 6, que determinou o texto lido, e leu o texto original e as
+três versões simplificadas, sempre na mesma ordem e identificadas pelo nome
+da técnica. Respondeu a perguntas de compreensão, avaliou a facilidade de leitura, a preservação do significado e a compreensão percebida em escalas Likert
+e indicou a versão preferida. Os dados foram analisados de forma descritiva. A
+versão do Gemini foi a mais preferida (11 de 28 participantes), enquanto a do
+spaCy obteve médias ligeiramente maiores nas três medidas (facilidade, 3,89
+contra 3,79; preservação, 3,62 contra 3,50; compreensão percebida, 4,25 contra 3,89), com diferenças pequenas diante dos desvios padrão. O PTT5 obteve
+os menores resultados, em parte por saídas anômalas em alguns textos. A taxa
+de acerto foi apresentada de forma descritiva e não é comparável entre versões,
+pois cada uma teve perguntas próprias. Dadas a ordem fixa, os nomes visíveis
+e a amostra pequena, não é possível declarar superioridade de nenhuma técnica. Desenvolveu-se uma plataforma web de prova de conceito, a Clareia, com
+o Gemini 3.5 Flash-Lite, modelo diferente do avaliado no experimento. Sua
+usabilidade não foi avaliada.
