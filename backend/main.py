@@ -19,6 +19,10 @@ from google.genai.errors import APIError
 from google.genai import types
 from pydantic import BaseModel
 try:
+    from backend.numeros import find_number_changes
+except ImportError:
+    from numeros import find_number_changes
+try:
     from backend.ressalvas_llm import verify_caveats
 except ImportError:
     from ressalvas_llm import verify_caveats
@@ -359,9 +363,13 @@ def generate_simplified_result(
                 continue
 
             avisos = verify_caveats(client, model_name, segments)
-            if avisos is not None:
-                for segment in segments:
+            for segment in segments:
+                if avisos is not None:
                     segment["ressalvas"] = avisos.get(segment["indice"], [])
+                segment["ressalvas"] = list(dict.fromkeys(
+                    find_number_changes(segment["original"], segment["simplificado"])
+                    + segment["ressalvas"]
+                ))
 
             simplified = "\n\n".join(
                 segment["simplificado"] for segment in segments

@@ -6,7 +6,7 @@ import logging
 from google.genai import types
 
 VERIFIER_INSTRUCTION = """Você compara um trecho original com sua versão simplificada, em português.
-Liste apenas alterações de sentido de dois tipos:
+Liste apenas alterações de sentido de três tipos:
 - "perdida": ressalva, qualificador ou limitação do original que sumiu ou ficou mais forte
   (ex.: "pode" virou afirmação, "depende diretamente" virou "só funciona se").
 - "alterada": termo, entidade, número ou fato do original trocado por outro de sentido diferente (ex.: "instituição de ensino" virou "escola"). Copie em "citacao" o trecho EXATO do original.
