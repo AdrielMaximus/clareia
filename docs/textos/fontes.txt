@@ -4,15 +4,17 @@ Alteração: removida a palavra "Resumo." do início. Quebras de linha do PDF ma
 Licença: texto dos autores.
 
 txt2.txt
-Fonte: Wikipédia em português, verbete "Ensino superior".
-Permalink: [colar o link permanente]
+Fonte: Wikipédia em português, verbete "Ensino superior", seção "Ensino superior no Brasil".
+Permalink: https://pt.wikipedia.org/w/index.php?title=Ensino_superior&oldid=71652837
 Acesso: 13/11/2026
-Licença: [conferir no rodapé da página]
+Licença: Este texto é disponibilizado nos termos da licença Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0) da Creative Commons; pode estar sujeito a condições adicionais. Para mais detalhes, consulte as condições de utilização.
 Alterações: removidos a URL, o rótulo "2. educacional:" e os marcadores de nota [3] a [8]. Mantido o erro do original "5,7% pessoas".
+Atribuição: Trecho originado do artigo 'Ensino superior no Brasil', incluído no verbete; atribuição aos autores via histórico de edições, conforme CC BY-SA 4.0.
 
 txt3.txt
 Fonte: Machado de Assis, Memórias Póstumas de Brás Cubas, Capítulo I.
-Edição: [a que consta nas primeiras páginas do PDF]
-Licença: domínio público.
-Alterações: nenhuma. Quebras de linha do PDF mantidas.
-Observação: o trecho traz "proferi"; não foi conferido em outra edição e pode ser erro de transcrição do PDF. Se a conferência posterior mostrar outra palavra, registrar a divergência sem alterar o texto congelado.
+Edição: e-book em PDF distribuído pelo Luso-Livros (luso-livros.net). O PDF não identifica a edição impressa de origem.
+Alterações: recorte dos dois primeiros parágrafos do capítulo (páginas 7 e 8 do PDF), sem o título do capítulo e sem a quebra de página. Quebras de linha do PDF mantidas; nenhuma correção de texto.
+Observação: o trecho traz "proferi", que pode ser erro de transcrição do PDF (a edição original deve trazer "proferiu"; confira no Wikisource ou no Domínio Público). Parece faltar também uma vírgula depois de "meus senhores" na fala entre aspas. Se a conferência mostrar divergência, registrar aqui sem alterar o texto congelado.
+Licença: domínio público (aviso do PDF, com base no art. 31 do Código do Direito de Autor e dos Direitos Conexos, de Portugal; o autor morreu em 1908).
+
